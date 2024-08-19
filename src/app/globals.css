@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ab {
+    animation: appearFromLeft 2s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.first {
+    animation: appearFromRight 3s  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.top{
+    animation: appearFromTop  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.second {
+    animation: appearFromRight 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.boxes{
+    animation: appearFromBottom  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.skills{
+    animation: appearFromBottom  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;  
+}
+.experience{
+    animation: appearFrombottom  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+@keyframes appearFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%) scale(1);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+
+@keyframes appearFrombottom {
+    from {
+        opacity: 0;
+        transform: translateY(50%) scale(1);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+@keyframes appearFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(50%) scale(1);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+@keyframes appearFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-0%) scale(1);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes appearFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(10%) scale(1);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(10) scale(1);
+    }
+}
+
