@@ -21,7 +21,8 @@ function Homes() {
 
       <div className='grid sm:grid-cols-2 grid-cols-1 w-full min-h-screen '>
         <div className='flex flex-col justify-center items-center sm:items-start sm:pl-24 sm:pt-2 pt-5 pb-5 order-2 sm:order-1'>
-          <p className='text-white'>Hi, I'm</p>
+        <p className='text-white'>Hi, I&apos;m</p>
+
           <TypewriterEffect words={words} />
           <TypewriterEffect words={words2} />
           <div className='text-center sm:text-left sm:pl-0 pl-4 pr-4 font-light text-two text-white flex justify-center items-center'>

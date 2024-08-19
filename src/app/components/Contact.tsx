@@ -79,7 +79,7 @@ const Contact = () => {
       </button>
     </form></div>
     <div className='col-span-1 order-1 '>
-      <div className='flex flex-col ab'><p className='text-3xl sm:pl-16 pl-6 pr-6 font-bold text-white'>Drop your Query let's Work Together!</p>
+      <div className='flex flex-col ab'><p className='text-3xl sm:pl-16 pl-6 pr-6 font-bold text-white'>Drop your Query let&apos;s Work Together!</p>
       <div className='hidden sm:flex ml-8 '>  <img  src={"/greet.png"}
             alt='Myself'
             width={425}

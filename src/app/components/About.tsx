@@ -48,8 +48,8 @@ function About() {
       
       <p className='ab'>
       <h1 className=' flex justify-start items-start text-2xl text-rose-500 font-bold '>Here it is</h1>
-        I'm a passionate frontend web developer with a keen eye for design and a drive for creating engaging user experiences. My journey into web development began with a fascination for how websites are built and has since evolved into a deep-seated passion for crafting clean, efficient code that brings ideas to life on the web.
-        I thrive in collaborative environments where I can work alongside talented individuals to create meaningful and impactful web solutions. I'm constantly exploring new technologies and techniques to stay at the forefront of frontend development trends.
+        I&apos;m a passionate frontend web developer with a keen eye for design and a drive for creating engaging user experiences. My journey into web development began with a fascination for how websites are built and has since evolved into a deep-seated passion for crafting clean, efficient code that brings ideas to life on the web.
+        I thrive in collaborative environments where I can work alongside talented individuals to create meaningful and impactful web solutions. I&apos;m constantly exploring new technologies and techniques to stay at the forefront of frontend development trends.
       </p>
       <div className='flex sm:flex-row flex-col gap-8 mt-6 boxes'>
       <div className='w w-40 h-40 rounded-md flex flex-col bg-slate-600 justify-center items-center gap-3 hover:scale-110 duration-500 hover:bg-black'
@@ -71,7 +71,7 @@ function About() {
     {/* You can add more content here for the second column if needed */}
     <div className='flex flex-row first '>  <Image src={"/laptop.png"} alt='laptop' width={130} height={130}/>
     <div className='flex flex-col'><p  className='text-2xl text-rose-500 pt-3 '>FrontEnd Dovelpment</p>
-    < p className='text-white justify-center items-center pr-8 pl-3'>With expertise in ReactJs, Redux Toolkit, NextJs and Headless CMS I'm striving to create intuitive, interactive interfaces crafting engaging user experiences through clean and efficient code</p>
+    < p className='text-white justify-center items-center pr-8 pl-3'>With expertise in ReactJs, Redux Toolkit, NextJs and Headless CMS I&apos;m striving to create intuitive, interactive interfaces crafting engaging user experiences through clean and efficient code</p>
     </div>
     </div>
     <div className='flex flex-row pt-24 second'>  <Image src={"/laptop2.png"} alt='laptop' width={130} height={130}/>
