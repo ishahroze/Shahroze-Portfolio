@@ -39,7 +39,7 @@ function Homes() {
         </div>
         <div className='flex justify-center items-center pt-8 order-1 sm:order-2'>
           <Image
-            src={"/boy.png"}
+            src={"/dp.png"}
             alt='Myself'
             width={475}
             height={475}

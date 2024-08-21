@@ -16,7 +16,7 @@ const Contact = () => {
     <div className='flex justify-center items-center pt-5 pb-16'><p className='text-4xl text-white font-bold inline  border-b-4 border-pink-600 sm:mb-10 mb-1 top'>Get In Touch </p></div>
     <div className='grid sm:grid-cols-2 grid-cols-1  '>
       <div className='col-span-1 order-2 sm:min-h-fit  gap-7'>
-    <form onSubmit={handleSubmit} className='gap   border-2 min-h-24 sm:mr-24 sm:pl-6 sm:pr-0  rounded-md sm:pb-14 second pl-8 sm:ml-0 ml-10  mr-10 sm:mb-0 mb-1 pb-5'>
+    <form onSubmit={handleSubmit} className='gap    border-2 min-h-24 sm:mr-24 sm:pl-6 sm:pr-0   rounded-md sm:pb-14 second pl-8 sm:ml-0 ml-10  mr-10 sm:mb-0 mb-1 pb-5'>
       <div className='mt-5 mb-5 '>
         
         <input
